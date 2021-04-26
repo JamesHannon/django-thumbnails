@@ -134,7 +134,7 @@ If you need to fetch multiple thumbnails at once, use ``fetch`` function for bet
 
 .. code-block:: python
 
-    from thumbnails.field import fetch_thumbnails
+    from thumbnails.fields import fetch_thumbnails
 
     food_a = Food.objects.get(id=1)
     food_b = Food.objects.get(id=2)
